@@ -1,0 +1,9 @@
+sentence-transformers>=2.2.2
+faiss-cpu>=1.7.4
+chromadb>=0.4.22
+streamlit>=1.32
+pillow>=10.0
+pyyaml>=6.0
+numpy>=1.24
+matplotlib>=3.7
+pytest>=7.4

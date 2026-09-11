@@ -1,0 +1,19 @@
+# Data and environment
+data/
+*.db
+*.sqlite
+.venv/
+__pycache__/
+*.pyc
+
+# Vector indices and caches
+vector_index/
+*.faiss
+*.index
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db

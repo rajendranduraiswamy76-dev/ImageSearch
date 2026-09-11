@@ -1,0 +1,9 @@
+photo_dir: "C:\\Raj\\AI-class\\colab\\photos"   # TODO: set to your photo folder
+
+data_dir: "./data"
+sqlite_path: "./data/metadata.db"
+vector_index_path: "./data/vector_index.faiss"
+vector_backend: "faiss"        # faiss | chroma
+
+model_name: "clip-ViT-B-32"
+top_k: 20
