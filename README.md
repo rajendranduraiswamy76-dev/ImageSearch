@@ -49,14 +49,25 @@ Next steps:
 
 ```powershell
 cd 01-multimodal-image-search
-python -m venv .venv
+py -3.11 -m venv .venv
 .venv\Scripts\Activate.ps1
-pip install -r requirements.txt
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
 streamlit run src/app.py
 ```
+
+If the environment previously reported `numpy._core._multiarray_umath`, remove
+`.venv` and recreate it before installing the requirements.
 
 Run tests:
 
 ```powershell
 pytest tests/
 ```
+
+cd 01-multimodal-image-search
+Remove-Item -Recurse -Force .venv
+py -3.11 -m venv .venv
+.venv\Scripts\Activate.ps1
+python -m pip install -r requirements.txt
+streamlit run src/app.py
